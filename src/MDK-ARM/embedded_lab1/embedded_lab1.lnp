@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"embedded_lab1\startup_stm32f407xx.o"
+"embedded_lab1\main.o"
+"embedded_lab1\stm32f4xx_it.o"
+"embedded_lab1\stm32f4xx_hal_msp.o"
+"embedded_lab1\flash.o"
+"embedded_lab1\spi.o"
+"embedded_lab1\stm32f4xx_hal_spi.o"
+"embedded_lab1\stm32f4xx_hal_rcc.o"
+"embedded_lab1\stm32f4xx_hal_rcc_ex.o"
+"embedded_lab1\stm32f4xx_hal_flash.o"
+"embedded_lab1\stm32f4xx_hal_flash_ex.o"
+"embedded_lab1\stm32f4xx_hal_flash_ramfunc.o"
+"embedded_lab1\stm32f4xx_hal_gpio.o"
+"embedded_lab1\stm32f4xx_hal_dma_ex.o"
+"embedded_lab1\stm32f4xx_hal_dma.o"
+"embedded_lab1\stm32f4xx_hal_pwr.o"
+"embedded_lab1\stm32f4xx_hal_pwr_ex.o"
+"embedded_lab1\stm32f4xx_hal_cortex.o"
+"embedded_lab1\stm32f4xx_hal.o"
+"embedded_lab1\stm32f4xx_hal_exti.o"
+"embedded_lab1\stm32f4xx_hal_tim.o"
+"embedded_lab1\stm32f4xx_hal_tim_ex.o"
+"embedded_lab1\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "embedded_lab1\embedded_lab1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "embedded_lab1.map" -o embedded_lab1\embedded_lab1.axf
