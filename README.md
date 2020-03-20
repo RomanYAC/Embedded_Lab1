@@ -1,6 +1,8 @@
 # Embedded_Lab1
 STM32 microcontroller educational work with flesh memory
 
+variant 2: AAI – Yes; HAL; N = 10
+
 microcontroller: STM32F407VG,
 datasheet link: https://www.alldatasheet.com/datasheet-pdf/pdf/510592/STMICROELECTRONICS/STM32F407VG.html
 
